@@ -1,0 +1,15 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+# 2 space indentation
+[*]
+end_of_line = crlf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{ts,tsx,scss,css}]
+charset = utf-8

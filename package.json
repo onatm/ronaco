@@ -1,0 +1,38 @@
+{
+  "name": "ronaco",
+  "version": "0.8.0",
+  "description": "Monaco Editor for React with typescript type definitions",
+  "keywords": [
+    "react",
+    "monaco",
+    "monaco-editor",
+    "typescript",
+    "typings"
+  ],
+  "repository": {
+    "url": "git@github.com:onatm/ronaco.git",
+    "type": "git"
+  },
+  "author": "onatm",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.34",
+    "@types/react": "16.0.31",
+    "monaco-editor": "0.10.1",
+    "prettier": "1.10.2",
+    "react": "16.2.0",
+    "rimraf": "2.6.2",
+    "tslint": "5.9.1",
+    "tslint-eslint-rules": "5.0.0",
+    "typescript": "2.7.1"
+  },
+  "peerDependencies": {
+    "monaco-editor": "0.10.1",
+    "react": "16.2.0"
+  }
+}
