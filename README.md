@@ -1,5 +1,9 @@
 # ronaco
 
+![NPM version](https://img.shields.io/npm/v/ronaco.svg?style=flat)
+![NPM license](https://img.shields.io/npm/l/ronaco.svg?style=flat)
+[![NPM total downloads](https://img.shields.io/npm/dt/ronaco.svg?style=flat)](https://npmcharts.com/compare/ronaco?minimal=true)
+
 `Monaco Editor` for `React` with `typescript` type definitions.
 
 ## Getting started
@@ -7,7 +11,7 @@
 Install `ronaco` using npm.
 
 ```bash
-npm install --save git://github.com/onatm/ronaco.git
+npm install --save ronaco
 ```
 
 Add `copy-webpack-plugin` to your webpack.config.js:
@@ -29,7 +33,7 @@ module.exports = {
 Import `MonacoEditor` from the library:
 
 ```javascript
-import { MonacoEditor } from 'ronaco/dist';
+import { MonacoEditor } from 'ronaco';
 ```
 
 ## Documentation
