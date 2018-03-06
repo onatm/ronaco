@@ -2,7 +2,17 @@
 
 import * as React from 'react';
 
-export type MonacoLanguage = 'typescript' | 'javascript';
+export type MonacoLanguage =
+  | 'typescript'
+  | 'javascript'
+  | 'cpp'
+  | 'csharp'
+  | 'fsharp'
+  | 'go'
+  | 'html'
+  | 'python'
+  | 'php'
+  | 'sql';
 
 export type MonacoTheme = 'vs' | 'vs-dark' | 'hc-black';
 
@@ -15,7 +25,7 @@ export interface MonacoEditorProps {
   onChange?: (newValue: string) => any;
 }
 
-export class MonacoEditor extends React.Component<MonacoEditorProps, {}> {
+export class MonacoEditor extends React.Component<MonacoEditorProps> {
   _element!: HTMLElement;
   _editor?: monaco.editor.IStandaloneCodeEditor;
 
